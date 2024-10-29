@@ -22,22 +22,24 @@ Add or update an Airplane to the Airplane table.(Jacey)
 
 Add or update an Airport to the Airport table (Jacey)
 
-Library == FLIGHT2024 : Employee Table = EMPLOYEE
+Library == #FLIGHT2024 
 
-Zip Code Table = ZIPCODE
+Employee Table = #EMPLOYEE
 
-Airplane table = AIRPLANE
+Zip Code Table = #ZIPCODE
 
-Airport table = AIRPORT
+Airplane table = #AIRPLANE
 
-If you sign into your AS400 green screen then type in the command STRSQL and then enter “select * from flight2024/airport” all the fields in the airport table will be shown. Have shown the physical files PF below. The files or tables we will use are highlighted in RED.
+Airport table = #AIRPORT
+
+If you sign into your AS400 green screen then type in the command STRSQL and then enter “select * from flight2024/airport” all the fields in the airport table will be shown. Have shown the physical files PF below. The files or tables we will use are #BOLD.
 
 Object Type Library Attribute Text
 
 ACCTPERIOD *FILE FLIGHT2024 PF Accting Period Begin And En ACP001 *FILE FLIGHT2024 PF Acme Work File - No key
 
-AIRPLANE *FILE FLIGHT2024 PF Flight - Airplanes
-AIRPORT *FILE FLIGHT2024 PF Flight - List of Airports
+#AIRPLANE *FILE FLIGHT2024 PF Flight - Airplanes
+#AIRPORT *FILE FLIGHT2024 PF Flight - List of Airports
 
 BOAT_TYPE2 *FILE FLIGHT2024 PF
 CARS *FILE FLIGHT2024 PF
@@ -53,7 +55,7 @@ CUSTOMER *FILE FLIGHT2024 PF Flight - Customers who book DANCE *FILE FLIGHT2024 
 EMAILSENT *FILE FLIGHT2024 PF Emails Sent Table
 EMPHRLYPAY *FILE FLIGHT2024 PF Pyxis Global Hourly Employe
 
-EMPLOYEE *FILE FLIGHT2024 PF Employee Table
+#EMPLOYEE *FILE FLIGHT2024 PF Employee Table
 
 EMPPF *FILE FLIGHT2024 PF Early Chapter Employee File EMPWORKORD *FILE FLIGHT2024 PF Employee Work Order Table
 EVFEVENT *FILE FLIGHT2024 PF
@@ -96,20 +98,6 @@ MWC001P *FILE FLIGHT2024 PF Meter Reading File
   WUCRSDSP       *FILE    FLIGHT2024    PF          Wibaux University Course De 
   WUCRSP            *FILE    FLIGHT2024    PF          Wibaux University Course Fi 
   WUENRLP          *FILE    FLIGHT2024    PF          Wibaux University - Current 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   Object         Type        Library          Attribute       Text                        
   WUINPAY      *FILE     FLIGHT2024  PF          Wibaux University Instructo 
   WUINSTP      *FILE     FLIGHT2024  PF          Wibaux University Instructo 
@@ -117,6 +105,6 @@ MWC001P *FILE FLIGHT2024 PF Meter Reading File
   WUSCTP       *FILE     FLIGHT2024  PF          Wibaux University Current S 
   WUSTDP       *FILE     FLIGHT2024  PF          Wibaux University Student M 
 
-  ZIPCODE       *FILE     FLIGHT2024  PF          Zip Codes Table For Airline
+  #ZIPCODE       *FILE     FLIGHT2024  PF          Zip Codes Table For Airline
 
   ZIPPF            *FILE      FLIGHT2024  PF          Mastering IBM i Zipcode dat
