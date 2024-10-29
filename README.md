@@ -38,9 +38,9 @@ Object Type Library Attribute Text
 
 ACCTPERIOD *FILE FLIGHT2024 PF Accting Period Begin And En ACP001 *FILE FLIGHT2024 PF Acme Work File - No key
 
-**AIRPLANE *FILE FLIGHT2024 PF Flight - Airplanes**
+***AIRPLANE *FILE FLIGHT2024 PF Flight - Airplanes***
 
-**AIRPORT *FILE FLIGHT2024 PF Flight - List of Airports**
+***AIRPORT *FILE FLIGHT2024 PF Flight - List of Airports***
 
 BOAT_TYPE2 *FILE FLIGHT2024 PF
 CARS *FILE FLIGHT2024 PF
@@ -56,7 +56,7 @@ CUSTOMER *FILE FLIGHT2024 PF Flight - Customers who book DANCE *FILE FLIGHT2024 
 EMAILSENT *FILE FLIGHT2024 PF Emails Sent Table
 EMPHRLYPAY *FILE FLIGHT2024 PF Pyxis Global Hourly Employe
 
-**EMPLOYEE *FILE FLIGHT2024 PF Employee Table**
+***EMPLOYEE *FILE FLIGHT2024 PF Employee Table***
 
 EMPPF *FILE FLIGHT2024 PF Early Chapter Employee File EMPWORKORD *FILE FLIGHT2024 PF Employee Work Order Table
 EVFEVENT *FILE FLIGHT2024 PF
@@ -106,6 +106,6 @@ MWC001P *FILE FLIGHT2024 PF Meter Reading File
   WUSCTP       *FILE     FLIGHT2024  PF          Wibaux University Current S 
   WUSTDP       *FILE     FLIGHT2024  PF          Wibaux University Student M 
 
-  **ZIPCODE       *FILE     FLIGHT2024  PF          Zip Codes Table For Airline**
+  ***ZIPCODE       *FILE     FLIGHT2024  PF          Zip Codes Table For Airline***
 
   ZIPPF            *FILE      FLIGHT2024  PF          Mastering IBM i Zipcode dat
